@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ECOFAD - Economia na Conta de Luz</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Pague Menos na Sua Conta de Luz<br> <span>Sem Mudar Nada na Sua Rotina!</span></h1>
+      <p>Receba até 20% de desconto real na sua fatura de energia,<br>sem taxa de adesão e com contratação 100% digital.</p>
+      <a href="#formulario" class="btn-cta">Quero Economizar</a>
+    </div>
+  </header>
+
+  <section class="formulario" id="formulario">
+    <div class="container">
+      <h2>Comece a Economizar Agora</h2>
+      <form onsubmit="return enviarParaWhatsapp()">
+        <input type="text" id="nome" placeholder="Nome completo" required />
+        <input type="tel" id="telefone" placeholder="Telefone" required />
+        <input type="text" id="valor" placeholder="Quanto paga de energia?" required />
+        <button type="submit">Enviar para WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ECOFAD - Energia Consciente</p>
+  </footer>
+
+  <a href="https://wa.me/553125801241" class="whatsapp-float" target="_blank">💬</a>
+</body>
+</html>
