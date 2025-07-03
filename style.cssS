@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+header.hero {
+  background: #02261E;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+.hero img.logo {
+  max-width: 160px;
+  margin-bottom: 20px;
+}
+.hero .hero-banner {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.hero .btn-cta {
+  display: inline-block;
+  margin-top: 20px;
+  background: #12F4C6;
+  color: #000;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.como-funciona .passos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.passos div {
+  width: 220px;
+}
+.passos img {
+  width: 100%;
+  max-width: 220px;
+}
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+.prova-social .depoimentos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.prova-social .depoimentos img {
+  width: 300px;
+  border-radius: 10px;
+}
+.prova-social .selo {
+  margin-top: 20px;
+  max-width: 160px;
+}
+.faq details {
+  margin: 10px auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+form input, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+}
+form button {
+  background-color: #12F4C6;
+  color: #000;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background: #02261E;
+  color: #fff;
+  padding: 20px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 28px;
+  background: #25D366;
+  color: white;
+  padding: 14px;
+  border-radius: 50%;
+  text-decoration: none;
+}
