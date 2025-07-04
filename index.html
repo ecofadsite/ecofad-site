@@ -3,29 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ECOFAD - Economia na Conta de Luz</title>
+  <title>ECOFAD – Economia na Conta de Luz</title>
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <h1>Pague Menos na Sua Conta de Luz<br> <span>Sem Mudar Nada na Sua Rotina!</span></h1>
-      <p>Receba até 20% de desconto real na sua fatura de energia,<br>sem taxa de adesão e com contratação 100% digital.</p>
+    <img src="logo.png" alt="Logo ECOFAD" class="logo">
+    <div class="hero-content">
+      <h1>Pague Menos na Sua Conta de Luz<br><span>Sem Mudar Nada na Sua Rotina!</span></h1>
+      <p>Receba até 20% de desconto real na sua fatura de energia, sem taxa de adesão e com contratação 100% digital.</p>
       <a href="#formulario" class="btn-cta">Quero Economizar</a>
     </div>
+    <img src="banner.jpg" class="hero-banner" alt="Imagem destaque">
   </header>
 
-  <section class="formulario" id="formulario">
-    <div class="container">
-      <h2>Comece a Economizar Agora</h2>
-      <form onsubmit="return enviarParaWhatsapp()">
-        <input type="text" id="nome" placeholder="Nome completo" required />
-        <input type="tel" id="telefone" placeholder="Telefone" required />
-        <input type="text" id="valor" placeholder="Quanto paga de energia?" required />
-        <button type="submit">Enviar para WhatsApp</button>
-      </form>
+  <section class="como-funciona">
+    <h2>Como Funciona?</h2>
+    <div class="passos">
+      <div><img src="img1.png" alt=""><p>1. Você se cadastra sem custo</p></div>
+      <div><img src="img2.png" alt=""><p>2. Conectamos sua conta à energia limpa</p></div>
+      <div><img src="img3.png" alt=""><p>3. Você começa a economizar todo mês</p></div>
     </div>
+  </section>
+
+  <section class="beneficios">
+    <h2>Benefícios da ECOFAD</h2>
+    <ul>
+      <li>✅ Até 20% de desconto real na conta de luz</li>
+      <li>✅ Sem taxa de adesão ou instalação</li>
+      <li>✅ Contrato 100% digital</li>
+      <li>✅ Sem fidelidade ou carência</li>
+      <li>✅ Energia limpa e regulamentada pela ANEEL</li>
+      <li>✅ Atendimento humano e transparente</li>
+    </ul>
+  </section>
+
+  <section class="prova-social">
+    <h2>Depoimentos & Resultados</h2>
+    <div class="depoimentos">
+      <img src="antes-depois1.png" alt="Antes e Depois 1">
+      <img src="antes-depois2.png" alt="Antes e Depois 2">
+    </div>
+    <img src="logo2.png" class="selo" alt="Selo ECOFAD">
+  </section>
+
+  <section class="faq">
+    <h2>Dúvidas Frequentes</h2>
+    <details><summary>Isso é confiável?</summary><p>Sim. A energia compartilhada é regulamentada pela ANEEL.</p></details>
+    <details><summary>Preciso trocar de companhia elétrica?</summary><p>Não. Você continua com a mesma distribuidora.</p></details>
+    <details><summary>Tem algum custo ou taxa de adesão?</summary><p>Não há custo de adesão nem instalação.</p></details>
+    <details><summary>Como recebo o desconto?</summary><p>Na sua própria fatura de energia, automaticamente.</p></details>
+    <details><summary>E se eu quiser cancelar?</summary><p>Você pode cancelar quando quiser, sem multa.</p></details>
+  </section>
+
+  <section class="formulario" id="formulario">
+    <h2>Comece a Economizar Agora</h2>
+    <form onsubmit="return enviarParaWhatsapp()">
+      <input type="text" id="nome" placeholder="Nome completo" required />
+      <input type="tel" id="telefone" placeholder="Telefone" required />
+      <input type="text" id="valor" placeholder="Quanto paga de energia?" required />
+      <button type="submit">Enviar para WhatsApp</button>
+    </form>
   </section>
 
   <footer>
